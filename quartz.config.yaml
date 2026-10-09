@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: bitbend.github.io/bit-bend
+  baseUrl: bitbend.github.io
   ignorePatterns:
     - private
     - templates
@@ -218,11 +218,11 @@ plugins:
     options:
       provider: giscus
       options:
-        repo: bitbend/bit-bend
+        repo: bitbend/bitbend.github.io
         repoId: R_kgDOU71cvw
         category: Announcements
         categoryId: DIC_kwDOU71cv84DHDJ2
-        themeUrl: https://bitbend.github.io/bit-bend/static/giscus
+        themeUrl: https://bitbend.github.io/static/giscus
         lightTheme: light
         darkTheme: dark
         mapping: pathname
